@@ -1,4 +1,9 @@
-// CalculadoraHoras.java - Clase principal para calcular el sueldo semanal
+/*
+Alumno: Hugo
+Curso: DAW 1 - Ampliacion
+Fecha: 13/11/2025
+ */
+
 public class CalculadoraHoras {
     // Constantes según recomendaciones
     private static final int HORAS_MIN = 0;
