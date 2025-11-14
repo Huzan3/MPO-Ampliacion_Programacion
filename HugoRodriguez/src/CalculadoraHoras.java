@@ -1,11 +1,4 @@
-/*
-Alumno: Hugo
-Curso: DAW 1 - Ampliacion
-Fecha: 13/11/2025
- */
-
-
-
+// CalculadoraHoras.java - Clase principal para calcular el sueldo semanal
 public class CalculadoraHoras {
     // Constantes según recomendaciones
     private static final int HORAS_MIN = 0;
@@ -34,6 +27,7 @@ public class CalculadoraHoras {
 
     /**
      * Método para pedir el nombre del empleado.
+     * @return El nombre introducido.
      */
     private static String pedirNombre() {
         return sc.pedirSoloTexto("Introduce el nombre del empleado: ");
@@ -41,6 +35,7 @@ public class CalculadoraHoras {
 
     /**
      * Método para pedir las horas trabajadas, con validación de rango y máximo de intentos.
+     * @return Las horas válidas.
      */
     private static int pedirHoras() {
         int intentos = 0;
@@ -62,6 +57,9 @@ public class CalculadoraHoras {
 
     /**
      * Método para calcular el salario basado en horas y tarifa.
+     * @param horas Horas trabajadas.
+     * @param tarifa Tarifa por hora.
+     * @return El salario total.
      */
     private static double calcularSalario(int horas, double tarifa) {
         return horas * tarifa;
@@ -69,6 +67,10 @@ public class CalculadoraHoras {
 
     /**
      * Método para mostrar el resumen semanal.
+     * @param nombre Nombre del empleado.
+     * @param horas Horas trabajadas.
+     * @param tarifa Tarifa por hora.
+     * @param salario Salario total.
      */
     private static void mostrarResumen(String nombre, int horas, double tarifa, double salario) {
         System.out.println("\n===== RESUMEN SEMANAL =====");
