@@ -5,6 +5,8 @@ import java.util.ArrayList;
 /**
  * Clase Biblioteca
  *
+ * @author Alumno- Hugo
+ * @version 1.0
  */
 public class Biblioteca {
     private ArrayList<Libro> catalogo;
