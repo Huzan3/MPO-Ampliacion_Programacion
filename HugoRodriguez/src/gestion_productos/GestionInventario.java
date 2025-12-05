@@ -138,6 +138,9 @@ public class GestionInventario {
 
             }
         }while (!correto);
+
+        inventario.put(codigo, precio);
+        System.out.println("Producto añadido: Código: " + codigo + ", Precio: " + precio);
     }
 
     /**
