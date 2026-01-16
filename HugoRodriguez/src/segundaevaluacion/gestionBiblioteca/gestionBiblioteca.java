@@ -5,11 +5,15 @@ import segundaevaluacion.gestionBiblioteca.exceptions.AnioInvalidoException;
 import segundaevaluacion.gestionBiblioteca.exceptions.CantidadInvalidaException;
 import segundaevaluacion.gestionBiblioteca.exceptions.IsbnInvalidoException;
 
-import javax.xml.transform.Source;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
+
+/*
+    Alumno - Hugo Rodriguez
+    DAW - Ampliacion de Programacion
+    16/01/2025
+ */
 
 public class gestionBiblioteca {
     private static final MyScanner sc = new MyScanner();
