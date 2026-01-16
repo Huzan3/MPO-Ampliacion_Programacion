@@ -60,7 +60,7 @@ public class gestionBiblioteca {
         do {
             correcto = true;
             try {
-                isbn = sc.pedirNumero("Introduce el isbn del libro: ") + "";
+                isbn = sc.pideTexto("Introduce el ISBN del libro: ");
                 if (isbn =="") {
                     throw new IsbnInvalidoException("El isbn no puede estar vacio");
                 } else if (String.valueOf(isbn).length() < 5){
